@@ -1,12 +1,12 @@
-#font-inter {
-  font-family: "Inter", serif;
-}
-
 body {
   color: white;
   background-color: black;
 }
 /* Common style ----*/
+#font-inter {
+  font-family: "Inter", serif;
+}
+
 p {
   color: gray;
 }
@@ -52,6 +52,7 @@ h3 {
 
 /* Banner Section ---- */
 .banner-container {
+  margin-top: 5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -68,7 +69,7 @@ h3 {
   border-radius: 3rem;
   padding: 1rem 3rem;
   font-size: 1rem;
-  font: 700;
+  font: bold;
   margin-top: 1rem;
   margin-right: 0.7rem;
 }
@@ -152,6 +153,38 @@ p {
 }
 /* Habit Section ----> */
 
+/* Extra Mile Section ---->*/
+
+.mile-container{
+  margin-top: 7rem;
+}
+
+.mile{
+  background-color:#222;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.mile-text > h2{
+  padding-bottom: 1rem;
+  margin: 0;
+}
+
+.mile-img > img{
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  width: 21rem;
+  height: 16rem;
+}
+
+.mile-text > button{
+  margin-top: 1.5rem;
+}
+/* Extra Mile Section ----> */
+
 /* Main Section ---->*/
 
 /* Media Query ----*/
@@ -193,6 +226,26 @@ p {
   .image-container > div {
     margin-top: 2rem;
   }
+
+  .mile{
+    flex-direction: column;
+    border-radius: 2rem;
+  }
+
+  .mile-text{
+    margin-left: 3rem;
+    padding: 2rem;
+  }
+
+  .mile-text > h2{
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+  }
+
+  .mile-text > button{
+    padding: 1rem 5rem;
+    margin-top: 1.5rem;
+  }
 }
 
 /* Large Device */
@@ -205,7 +258,7 @@ p {
     display: none;
   }
   .links {
-    border: 2px solid gray;
+    border: 1px solid gray;
   }
   .img-2 {
     display: none;
@@ -213,6 +266,15 @@ p {
 
   .image-container > div {
     margin-left: 4rem;
+  }
+
+  .mile{
+    width: 60rem;
+    padding: 2rem;
+  }
+
+  .mile-text{
+    margin-right: 10rem;
   }
 }
 /* Media Query ----*/

@@ -10,6 +10,15 @@ body {
 p {
   color: gray;
 }
+h2 {
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+}
+
+h3 {
+  margin: 0;
+  margin-top: 1.5rem;
+}
 /* Common style ----*/
 
 /* Header style ----*/
@@ -118,6 +127,33 @@ p {
 /* Banner Section ---- */
 /* Header style ----*/
 
+/* Main Section ----> */
+
+/* Habit Section ----> */
+.habit-container {
+  margin-top: 7rem;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.image-container > div > img {
+  border-radius: 100%;
+}
+
+.image-container > div {
+  text-align: center;
+  border-radius: 100%;
+}
+/* Habit Section ----> */
+
+/* Main Section ---->*/
+
 /* Media Query ----*/
 
 /* Smaller Device */
@@ -149,6 +185,14 @@ p {
   .img-1 {
     display: none;
   }
+
+  .image-container {
+    flex-direction: column;
+  }
+
+  .image-container > div {
+    margin-top: 2rem;
+  }
 }
 
 /* Large Device */
@@ -165,6 +209,10 @@ p {
   }
   .img-2 {
     display: none;
+  }
+
+  .image-container > div {
+    margin-left: 4rem;
   }
 }
 /* Media Query ----*/

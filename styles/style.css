@@ -1,0 +1,68 @@
+/* Common style ----*/
+body {
+  font-family: "Inter", sans-serif;
+  background-color: black;
+}
+/* Common style ----*/
+
+/* Header style ----*/
+/* Navbar ----*/
+#logo {
+  color: #e6533c;
+  font-size: 2.25rem;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#home {
+  border-radius: 3rem;
+  background-color: #e6533c;
+  padding: 0.5rem 1.5rem;
+}
+
+.links{
+    padding: 0.8rem 0;
+    border-radius: 3rem;
+}
+
+.links > a {
+  margin: 1rem;
+  color: white;
+  text-decoration: none;
+}
+/* Navbar ----- */
+/* Header style ----*/
+
+/* Media Query ----*/
+
+/* Smaller Device */
+@media screen and (max-width: 576px) {
+  #bars {
+    display: flex;
+    font-size: 2rem;
+  }
+  .navbar {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .links > a {
+    display: none;
+  }
+}
+
+/* Large Device */
+@media screen and (min-width: 900px) {
+  #bars {
+    display: none;
+  }
+  .links {
+    border: 0.1rem solid gray;
+  }
+  .navbar {
+    margin-left: 11rem;
+    margin-right: 11rem;
+  }
+}
+/* Media Query ----*/

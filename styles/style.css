@@ -1,7 +1,14 @@
-/* Common style ----*/
+#font-inter {
+  font-family: "Inter", serif;
+}
+
 body {
-  font-family: "Inter", sans-serif;
+  color: white;
   background-color: black;
+}
+/* Common style ----*/
+p {
+  color: gray;
 }
 /* Common style ----*/
 
@@ -22,9 +29,9 @@ body {
   padding: 0.5rem 1.5rem;
 }
 
-.links{
-    padding: 0.8rem 0;
-    border-radius: 3rem;
+.links {
+  padding: 0.8rem 0;
+  border-radius: 3rem;
 }
 
 .links > a {
@@ -33,36 +40,131 @@ body {
   text-decoration: none;
 }
 /* Navbar ----- */
+
+/* Banner Section ---- */
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-title > h1 {
+  font-size: 4.5rem;
+  margin: 0 0 1rem 0;
+}
+
+.button1 {
+  background-color: #e6533c;
+  color: white;
+  border: none;
+  border-radius: 3rem;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  font: 700;
+  margin-top: 1rem;
+  margin-right: 0.7rem;
+}
+
+.button2 {
+  margin-top: 1.5rem;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  border-radius: 3rem;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  font: 700;
+}
+
+.banner-img {
+  position: relative;
+}
+
+.icon-container {
+  background-color: rgba(48, 48, 48, 0.54);
+  border-radius: 0.5rem;
+  position: absolute;
+  bottom: 4rem;
+  padding: 1rem;
+  padding-left: 3rem;
+}
+
+.icon-container2 {
+  background-color: rgba(48, 48, 48, 0.54);
+  border-radius: 0.5rem;
+  top: 8rem;
+  left: 10rem;
+  position: absolute;
+  padding: 1rem;
+}
+
+.icon-container2 > h3 {
+  font-size: 2rem;
+  font: 900;
+}
+
+.icon-container > h3,
+p,
+.icon-container2 > h3,
+p {
+  margin: 0;
+}
+
+.circle {
+  position: absolute;
+  bottom: 4.7rem;
+  left: 0.2rem;
+}
+
+/* Banner Section ---- */
 /* Header style ----*/
 
 /* Media Query ----*/
 
 /* Smaller Device */
 @media screen and (max-width: 576px) {
+  .banner-title > h1 {
+    font-size: 3.5rem;
+  }
+  .banner-container {
+    flex-direction: column;
+  }
   #bars {
     display: flex;
     font-size: 2rem;
   }
-  .navbar {
+  body {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
   .links > a {
     display: none;
   }
+
+  .circle {
+    position: absolute;
+    bottom: 5rem;
+    left: 0.7rem;
+  }
+
+  .img-1 {
+    display: none;
+  }
 }
 
 /* Large Device */
 @media screen and (min-width: 900px) {
+  body {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
   #bars {
     display: none;
   }
   .links {
-    border: 0.1rem solid gray;
+    border: 2px solid gray;
   }
-  .navbar {
-    margin-left: 11rem;
-    margin-right: 11rem;
+  .img-2 {
+    display: none;
   }
 }
 /* Media Query ----*/

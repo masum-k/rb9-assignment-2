@@ -19,6 +19,11 @@ h3 {
   margin: 0;
   margin-top: 1.5rem;
 }
+
+h4 {
+  font-size: 2rem;
+  margin: 1rem 0 1rem 0;
+}
 /* Common style ----*/
 
 /* Header style ----*/
@@ -155,12 +160,12 @@ p {
 
 /* Extra Mile Section ---->*/
 
-.mile-container{
+.mile-container {
   margin-top: 7rem;
 }
 
-.mile{
-  background-color:#222;
+.mile {
+  background-color: #222;
   border-radius: 2rem;
   display: flex;
   justify-content: center;
@@ -168,22 +173,68 @@ p {
   margin: auto;
 }
 
-.mile-text > h2{
+.mile-text > h2 {
   padding-bottom: 1rem;
   margin: 0;
 }
 
-.mile-img > img{
+.mile-img > img {
   border-radius: 1rem;
   margin-bottom: 2rem;
   width: 21rem;
   height: 16rem;
 }
 
-.mile-text > button{
+.mile-text > button {
   margin-top: 1.5rem;
 }
 /* Extra Mile Section ----> */
+
+/* Bmi Calculator ----> */
+td {
+  color: gray;
+}
+
+table,
+th,
+tr,
+td {
+  padding: 0.5rem;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+.calculator {
+  background-color: #222;
+}
+.input {
+  margin-top: 2rem;
+}
+
+input{
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.8rem 1.5rem;
+  border: none;
+  color: gray;
+  border-radius: 0.5rem;
+}
+
+select {
+  padding: 0.8rem 7.5rem 0.8rem 1.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: gray;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.first-row{
+  margin-bottom: 0.7rem;
+}
+
+#second-selector{
+  padding: 0.8rem 15rem 0.8rem 1.5rem;
+  margin-top: 0.8rem;
+}
+/* Bmi Calculator ----> */
 
 /* Main Section ---->*/
 
@@ -191,6 +242,11 @@ p {
 
 /* Smaller Device */
 @media screen and (max-width: 576px) {
+  h4 {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+  }
+
   .banner-title > h1 {
     font-size: 3.5rem;
   }
@@ -227,24 +283,41 @@ p {
     margin-top: 2rem;
   }
 
-  .mile{
+  .mile {
     flex-direction: column;
     border-radius: 2rem;
   }
 
-  .mile-text{
+  .mile-text {
     margin-left: 3rem;
     padding: 2rem;
   }
 
-  .mile-text > h2{
+  .mile-text > h2 {
     margin-bottom: 1.5rem;
     font-size: 2.5rem;
   }
 
-  .mile-text > button{
+  .mile-text > button {
     padding: 1rem 5rem;
     margin-top: 1.5rem;
+  }
+
+  .first-row{
+    margin-bottom: 0rem;
+  }
+
+  input{
+    margin-bottom: 0.8rem;
+  }
+
+  .calculator{
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+
+  .bmi-container table{
+    margin-left: 6.5rem;
   }
 }
 
@@ -268,13 +341,28 @@ p {
     margin-left: 4rem;
   }
 
-  .mile{
+  .mile {
     width: 60rem;
     padding: 2rem;
   }
 
-  .mile-text{
+  .mile-text {
     margin-right: 10rem;
+  }
+
+  .bmi-title {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .calculator {
+    display: flex;
+    justify-content: space-around;
+    width: 80rem;
+    margin: auto;
+    padding-bottom: 5rem;
   }
 }
 /* Media Query ----*/

@@ -1,0 +1,488 @@
+body {
+    color: white;
+    background-color: black;
+  }
+  /* Common style ----*/
+  #font-inter {
+    font-family: "Inter", serif;
+  }
+  
+  p {
+    color: gray;
+  }
+  h2 {
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+  }
+  
+  h3 {
+    margin: 0;
+    margin-top: 1.5rem;
+  }
+  
+  h4 {
+    font-size: 2rem;
+    margin: 1rem 0 1rem 0;
+  }
+  
+  h5 {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem 0;
+  }
+  /* Common style ----*/
+  
+  /* Header style ----*/
+  /* Navbar ----*/
+  #logo {
+    color: #e6533c;
+    font-size: 2.25rem;
+    font-style: italic;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #home {
+    border-radius: 3rem;
+    background-color: #e6533c;
+    padding: 0.5rem 1.5rem;
+  }
+  
+  .links {
+    padding: 0.8rem 0;
+    border-radius: 3rem;
+  }
+  
+  .links > a {
+    margin: 1rem;
+    color: white;
+    text-decoration: none;
+  }
+  /* Navbar ----- */
+  
+  /* Banner Section ---- */
+  .banner-container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .banner-title > h1 {
+    font-size: 4.5rem;
+    margin: 0 0 1rem 0;
+  }
+  
+  .button1 {
+    background-color: #e6533c;
+    color: white;
+    border: none;
+    border-radius: 3rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font: bold;
+    margin-top: 1rem;
+    margin-right: 0.7rem;
+  }
+  
+  .button2 {
+    margin-top: 1.5rem;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    border-radius: 3rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font: 700;
+  }
+  
+  .banner-img {
+    position: relative;
+  }
+  
+  .icon-container {
+    background-color: rgba(48, 48, 48, 0.54);
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 4rem;
+    padding: 1rem;
+    padding-left: 3rem;
+  }
+  
+  .icon-container2 {
+    background-color: rgba(48, 48, 48, 0.54);
+    border-radius: 0.5rem;
+    top: 8rem;
+    left: 10rem;
+    position: absolute;
+    padding: 1rem;
+  }
+  
+  .icon-container2 > h3 {
+    font-size: 2rem;
+    font: 900;
+  }
+  
+  .icon-container > h3,
+  p,
+  .icon-container2 > h3,
+  p {
+    margin: 0;
+  }
+  
+  .circle {
+    position: absolute;
+    bottom: 4.7rem;
+    left: 0.2rem;
+  }
+  
+  /* Banner Section ---- */
+  /* Header style ----*/
+  
+  /* Main Section ----> */
+  
+  /* Habit Section ----> */
+  .habit-container {
+    margin-top: 7rem;
+    text-align: center;
+  }
+  
+  .image-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  
+  .image-container > div > img {
+    border-radius: 100%;
+  }
+  
+  .image-container > div {
+    text-align: center;
+    border-radius: 100%;
+  }
+  /* Habit Section ----> */
+  
+  /* Extra Mile Section ---->*/
+  
+  .mile-container {
+    margin-top: 7rem;
+  }
+  
+  .mile {
+    background-color: #222;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .mile-text > h2 {
+    padding-bottom: 1rem;
+    margin: 0;
+  }
+  
+  .mile-img > img {
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    width: 21rem;
+    height: 16rem;
+  }
+  
+  .mile-text > button {
+    margin-top: 1.5rem;
+  }
+  /* Extra Mile Section ----> */
+  
+  /* Bmi Calculator ----> */
+  td {
+    color: gray;
+  }
+  
+  table,
+  th,
+  tr,
+  td {
+    padding: 0.5rem;
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  .calculator {
+    background-color: #222;
+  }
+  .input {
+    margin-top: 2rem;
+  }
+  
+  input {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.8rem 1.5rem;
+    border: none;
+    color: gray;
+    border-radius: 0.5rem;
+  }
+  
+  select {
+    padding: 0.8rem 7.5rem 0.8rem 1.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: gray;
+    border: none;
+    border-radius: 0.5rem;
+  }
+  
+  .first-row {
+    margin-bottom: 0.7rem;
+  }
+  
+  #second-selector {
+    padding: 0.8rem 15rem 0.8rem 1.5rem;
+    margin-top: 0.8rem;
+  }
+  /* Bmi Calculator ----> */
+  
+  /* Team Section ----> */
+  .trainer-img-cotainer {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 1rem;
+    width: max-content;
+    margin: auto;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .team-title {
+    padding: 5rem 0 4rem 0;
+    text-align: center;
+  }
+  
+  .trainer-bg-1 {
+    background-image: url("../images/trainer1.png");
+  }
+  .trainer-bg-2 {
+    background-image: url("../images/trainer2.png");
+  }
+  .trainer-bg-3 {
+    background-image: url("../images/trainer3.png");
+  }
+  .trainer-bg-4 {
+    background-image: url("../images/trainer4.png");
+    background-position: center;
+  }
+  .trainer-bg-5 {
+    background-image: url("../images/trainer5.png");
+  }
+  .trainer-bg-6 {
+    background-image: url("../images/trainer6.png");
+  }
+  
+  .trainer {
+    box-shadow: 0.8rem 0.8rem 10rem inset black;
+    background-size: cover;
+    position: relative;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 20rem;
+  }
+  
+  .trainer-card {
+    bottom: 1rem;
+    margin-left: 0.8rem;
+    position: absolute;
+  }
+  /* Team Section ----> */
+  
+  /* Main Section ---->*/
+  
+  /* Footer ----> */
+  
+  footer {
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .footer-container {
+    margin: auto;
+  }
+  
+  #footer-logo {
+    margin: 0 0 1rem 0;
+    font-size: 4rem;
+    color: #e6533c;
+    font-style: italic;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  ul > li {
+    color: gray;
+    margin-bottom: 1rem;
+    padding: 0;
+    list-style: none;
+  }
+  
+  hr{
+    margin-top: 3rem;
+    width: 80%;
+  }
+  
+  .copy-right{
+    margin-top: 2rem;
+    text-align: center;
+  }
+  /* Footer ----> */
+  
+  /* Media Query ----*/
+  
+  /* Smaller Device */
+  @media screen and (max-width: 576px) {
+    h4 {
+      font-size: 1.5rem;
+      padding-top: 2rem;
+    }
+  
+    .banner-title > h1 {
+      font-size: 3.5rem;
+    }
+    .banner-container {
+      flex-direction: column;
+    }
+    #bars {
+      display: flex;
+      font-size: 2rem;
+    }
+    body {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+    .links > a {
+      display: none;
+    }
+  
+    .circle {
+      position: absolute;
+      bottom: 5rem;
+      left: 0.7rem;
+    }
+  
+    .img-1 {
+      display: none;
+    }
+  
+    .image-container {
+      flex-direction: column;
+    }
+  
+    .image-container > div {
+      margin-top: 2rem;
+    }
+  
+    .mile {
+      flex-direction: column;
+      border-radius: 2rem;
+    }
+  
+    .mile-text {
+      margin-left: 3rem;
+      padding: 2rem;
+    }
+  
+    .mile-text > h2 {
+      margin-bottom: 1.5rem;
+      font-size: 2.5rem;
+    }
+  
+    .mile-text > button {
+      padding: 1rem 5rem;
+      margin-top: 1.5rem;
+    }
+  
+    .first-row {
+      margin-bottom: 0rem;
+    }
+  
+    input {
+      margin-bottom: 0.8rem;
+    }
+  
+    .calculator {
+      padding-bottom: 3rem;
+      text-align: center;
+    }
+  
+    .bmi-container table {
+      margin-left: 6.5rem;
+    }
+    .trainer-img-cotainer{
+    grid-template-columns: repeat(1, 1fr);
+      
+    }
+    .footer-container {
+      text-align: center;
+      padding-top: 2rem;
+      width: 25rem;
+    }
+  }
+  
+  /* Large Device */
+  @media screen and (min-width: 900px) {
+    body {
+      margin-left: 10rem;
+      margin-right: 10rem;
+    }
+    #bars {
+      display: none;
+    }
+    .links {
+      border: 1px solid gray;
+    }
+    .img-2 {
+      display: none;
+    }
+  
+    .image-container > div {
+      margin-left: 4rem;
+    }
+  
+    .mile {
+      width: 60rem;
+      padding: 2rem;
+    }
+  
+    .mile-text {
+      margin-right: 10rem;
+    }
+  
+    .bmi-title {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .calculator {
+      display: flex;
+      justify-content: space-around;
+      width: 80rem;
+      margin: auto;
+      padding-bottom: 5rem;
+    }
+  
+    .footer-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      width: 65rem;
+      gap: 15rem;
+      padding-top: 2rem;
+    }
+  }
+  /* Media Query ----*/
+  

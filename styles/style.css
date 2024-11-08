@@ -265,20 +265,20 @@ select {
   background-image: url("/images/trainer1.png");
 }
 .trainer-bg-2 {
-  background-image: url("/images/trainer2.png");
+  background-image: url(/images/trainer2.png);
 }
 .trainer-bg-3 {
-  background-image: url("/images/trainer3.png");
+  background-image: url(/images/trainer3.png);
 }
 .trainer-bg-4 {
-  background-image: url("/images/trainer4.png");
+  background-image: url(/images/trainer4.png);
   background-position: center;
 }
 .trainer-bg-5 {
-  background-image: url("/images/trainer5.png");
+  background-image: url(/images/trainer5.pn);
 }
 .trainer-bg-6 {
-  background-image: url("/images/trainer6.png");
+  background-image: url(/images/trainer6.png);
 }
 
 .trainer {
@@ -428,7 +428,7 @@ hr{
   .footer-container {
     text-align: center;
     padding-top: 2rem;
-    width: 30rem;
+    width: 40rem;
   }
 }
 

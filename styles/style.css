@@ -36,6 +36,7 @@ h5 {
 #logo {
   color: #e6533c;
   font-size: 2.25rem;
+  font-style: italic;
 }
 .navbar {
   display: flex;
@@ -215,7 +216,7 @@ td {
   margin-top: 2rem;
 }
 
-input{
+input {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 0.8rem 1.5rem;
   border: none;
@@ -231,18 +232,21 @@ select {
   border-radius: 0.5rem;
 }
 
-.first-row{
+.first-row {
   margin-bottom: 0.7rem;
 }
 
-#second-selector{
+#second-selector {
   padding: 0.8rem 15rem 0.8rem 1.5rem;
   margin-top: 0.8rem;
 }
 /* Bmi Calculator ----> */
 
 /* Team Section ----> */
-.trainer-img-cotainer{
+.trainer-img-cotainer {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 1rem;
   width: max-content;
   margin: auto;
   display: grid;
@@ -252,33 +256,32 @@ select {
   gap: 1.5rem;
 }
 
-.team-title{
+.team-title {
   padding: 5rem 0 4rem 0;
   text-align: center;
 }
 
-.trainer-bg-1{
-background-image: url('/images/trainer1.png');
+.trainer-bg-1 {
+  background-image: url("/images/trainer1.png");
 }
-.trainer-bg-2{
-background-image: url('/images/trainer2.png');
+.trainer-bg-2 {
+  background-image: url("/images/trainer2.png");
 }
-.trainer-bg-3{
-  background-image: url('/images/trainer3.png');
+.trainer-bg-3 {
+  background-image: url("/images/trainer3.png");
 }
-.trainer-bg-4{
-  background-image: url('/images/trainer4.png');
+.trainer-bg-4 {
+  background-image: url("/images/trainer4.png");
   background-position: center;
 }
-.trainer-bg-5{
-  background-image: url('/images/trainer5.png');
+.trainer-bg-5 {
+  background-image: url("/images/trainer5.png");
 }
-.trainer-bg-6{
-  background-image: url('/images/trainer6.png');
+.trainer-bg-6 {
+  background-image: url("/images/trainer6.png");
 }
 
-
-.trainer{
+.trainer {
   box-shadow: 0.8rem 0.8rem 10rem inset black;
   background-size: cover;
   position: relative;
@@ -287,7 +290,7 @@ background-image: url('/images/trainer2.png');
   height: 20rem;
 }
 
-.trainer-card{
+.trainer-card {
   bottom: 1rem;
   margin-left: 0.8rem;
   position: absolute;
@@ -295,6 +298,47 @@ background-image: url('/images/trainer2.png');
 /* Team Section ----> */
 
 /* Main Section ---->*/
+
+/* Footer ----> */
+
+footer {
+  margin-top: 5rem;
+  padding-bottom: 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-container {
+  margin: auto;
+}
+
+#footer-logo {
+  margin: 0 0 1rem 0;
+  font-size: 4rem;
+  color: #e6533c;
+  font-style: italic;
+}
+
+ul {
+  padding: 0;
+}
+
+ul > li {
+  color: gray;
+  margin-bottom: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+hr{
+  margin-top: 3rem;
+  width: 80%;
+}
+
+.copy-right{
+  margin-top: 2rem;
+  text-align: center;
+}
+/* Footer ----> */
 
 /* Media Query ----*/
 
@@ -361,26 +405,30 @@ background-image: url('/images/trainer2.png');
     margin-top: 1.5rem;
   }
 
-  .first-row{
+  .first-row {
     margin-bottom: 0rem;
   }
 
-  input{
+  input {
     margin-bottom: 0.8rem;
   }
 
-  .calculator{
+  .calculator {
     padding-bottom: 3rem;
     text-align: center;
   }
 
-  .bmi-container table{
+  .bmi-container table {
     margin-left: 6.5rem;
   }
-
   .trainer-img-cotainer{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+    
+  }
+  .footer-container {
+    text-align: center;
+    padding-top: 2rem;
+    width: 30rem;
   }
 }
 
@@ -428,5 +476,12 @@ background-image: url('/images/trainer2.png');
     padding-bottom: 5rem;
   }
 
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 65rem;
+    gap: 15rem;
+    padding-top: 2rem;
+  }
 }
 /* Media Query ----*/
